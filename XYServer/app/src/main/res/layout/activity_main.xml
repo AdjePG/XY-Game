@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/invoices_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutDown"
+        android:layout_width="414dp"
+        android:layout_height="433dp"
+        android:background="#B5B4B4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayoutUp"
+        tools:ignore="MissingConstraints">
+
+        <!--<ScrollView
+            android:id="@+id/llistaIteracions"
+            android:layout_width="381dp"
+            android:layout_height="402dp"
+            android:layout_marginTop="16dp"
+            android:saveEnabled="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck">
+
+            <TableLayout
+                android:id="@+id/tableIterations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:stretchColumns="*">
+
+            </TableLayout>
+        </ScrollView>
+
+        <ListView
+            android:id="@+id/llistaIteracions"
+            android:layout_width="381dp"
+            android:layout_height="402dp"
+            android:layout_marginTop="16dp"
+            android:saveEnabled="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.515"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints,SpeakableTextPresentCheck" >
+
+            <TableLayout
+                android:id="@+id/tableIterations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp"
+                android:stretchColumns="*"/>
+        </ListView>-->
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayoutUp"
+        android:layout_width="416dp"
+        android:layout_height="300dp"
+        android:background="#00B7FF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textcodi"
+            android:layout_width="189dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="16dp"
+            android:text="CODI:"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="332dp"
+            android:layout_height="64dp"
+            android:letterSpacing="0.5"
+            android:text="*****"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textcodi" />
+
+        <TextView
+            android:id="@+id/nomGrup2"
+            android:layout_width="168dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="84dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/nomGrup1"
+            app:layout_constraintTop_toBottomOf="@+id/code" />
+
+        <TextView
+            android:id="@+id/nomGrup1"
+            android:layout_width="168dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="84dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/nomGrup2"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/code" />
+
+        <Button
+            android:id="@+id/buttonStart"
+            android:layout_width="348dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#006ADC"
+            android:onClick="Start"
+            android:text="START"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/code" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

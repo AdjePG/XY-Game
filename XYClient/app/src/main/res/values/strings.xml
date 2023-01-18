@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">XYClient</string>
+    <string name="startBTN">Registrar dades</string>
+    <string name="xBTN">X</string>
+    <string name="yBTN">Y</string>
+    <string name="gameCodeET">Codi de la sala</string>
+    <string name="groupNameET">Nom del grup</string>
+    <string name="roundTVbf">XY GAME</string>
+    <string name="buttonsSelectionTVbf">Selecciona una de les opcions</string>
+</resources>

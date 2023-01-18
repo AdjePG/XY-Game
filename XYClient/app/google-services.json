@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "534715965877",
+    "firebase_url": "https://xygame-cda41-default-rtdb.firebaseio.com",
+    "project_id": "xygame-cda41",
+    "storage_bucket": "xygame-cda41.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534715965877:android:d6b6720ad3b5998829f9fc",
+        "android_client_info": {
+          "package_name": "com.example.xyclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534715965877-dm9hhh1m0o1uid8hh9ddrnrruja9sr9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwjT1aQxKg-PXMSK0bJxtuksGE4X2zY28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534715965877-dm9hhh1m0o1uid8hh9ddrnrruja9sr9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
